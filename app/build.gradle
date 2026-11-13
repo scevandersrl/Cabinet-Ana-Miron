@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'ro.cabinetmiron.receptiedemo'
+ compileSdk 35
+ defaultConfig {
+  applicationId 'ro.cabinetmiron.receptiedemo'
+  minSdk 24
+  targetSdk 28
+  versionCode 1
+  versionName '1.0-demo'
+ }
+}
